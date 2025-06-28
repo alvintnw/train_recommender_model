@@ -1,7 +1,9 @@
 Movie Recommender Model Training
+
 This project demonstrates how to train a movie recommender system using the SVD (Singular Value Decomposition) algorithm from the Surprise library. The trained model is then saved for future use, such as deployment in an recommendation API.
 
 Code Overview
+
 The Google Colab notebook train_recommender_model.ipynb performs the following key steps:
 
 Install Necessary Libraries:
@@ -40,6 +42,7 @@ Dataset Structure (MovieLens)
 This project uses a simplified MovieLens dataset, typically consisting of two main CSV files:
 
 ratings.csv: Contains user ratings for movies.
+
 | userId | movieId | rating | timestamp |
 | :----- | :------ | :----- | :-------- |
 | 1      | 1       | 4.0    | 964988270 |
@@ -47,6 +50,7 @@ ratings.csv: Contains user ratings for movies.
 | ...    | ...     | ...    | ...       |
 
 movies.csv: Contains movie metadata.
+
 | movieId | title             | genres                   |
 | :------ | :---------------- | :----------------------- |
 | 1       | Toy Story (1995)  | Adventure|Animation|Children|Comedy|Fantasy |
